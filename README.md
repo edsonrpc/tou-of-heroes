@@ -22,7 +22,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-# Quality of the Code
+## Quality of the Code
 
 [![DeepScan grade](https://deepscan.io/api/teams/23493/projects/26778/branches/853720/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=23493&pid=26778&bid=853720)
 
