@@ -11,13 +11,18 @@ import { MessagesComponent } from './messages/messages.component';
 import { MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroesDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +32,9 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     AppRoutingModule,
     MatIconModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatCardModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
