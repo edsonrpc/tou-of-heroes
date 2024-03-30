@@ -1,13 +1,13 @@
-<h2>Deshboard</h2>
+<h1>Deshboard</h1>
 
 <div fxLayout="row"
      fxLayoutGap="20px"
      fxLayout.xs="column"
      fxLayoutAlign="space-between"
      >
-    <mat-card *ngFor="let hero of heroes">
+    <mat-card *ngFor="let hero of heroes" routerLink="/heroes/{{ hero.id }}">
         <mat-card-title>
-            {{hero.name}}
+            {{ hero.name }}
         </mat-card-title>
     </mat-card>
 </div>
